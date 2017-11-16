@@ -6,7 +6,7 @@ import sun.jvm.hotspot.runtime.VM;
 import sun.jvm.hotspot.tools.Tool;
 
 /**
- * Print the string literal pool of a running JVM.
+ * Print the classes of a running JVM.
  * Usage: java -cp .:${JAVA_HOME}/lib/sa-jdi.jar com.github.leoliang.PrintClassesJDK8 &lt;Running JVM's PID&gt; <br />
  * You need to add sa-jdi.jar to your class path. This is generally available in your JDK's lib directory. Also, you might need to run this class with super user privileges in order to access the other JVM.
  * <p>
